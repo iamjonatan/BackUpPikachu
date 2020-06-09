@@ -1,0 +1,53 @@
+
+.container > h1 {
+    margin: 30px auto;
+    text-align: center;
+    color: #62556b;
+}
+
+.menu-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.menu-buttons > button {
+    width: 160px;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    background-image: linear-gradient(243deg,#764ba2 0%,#667eea 100%)!important;
+    margin: 10px 30px;
+}
+
+.toast-msg {
+    display: none;
+    color: #34ce57;
+    text-align: center;
+    margin: 30px;
+}
+
+.card-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-search > h2 {
+    text-align: center;
+    color: #62556b;
+}
+
+.card-presentation {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-presentation > img {
+    margin: 10px;
+}
