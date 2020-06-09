@@ -19,8 +19,6 @@ function createCORSRequest(method, url) {
     return xhr;
 }
 
-
-
 function getRequest(url, callback) {
 
     var Http = createCORSRequest('GET', url);  //create http with cors functionality
@@ -28,7 +26,6 @@ function getRequest(url, callback) {
         throw new Error('CORS not supported');
     }
 
-    //receiver
     Http.onreadystatechange = function(){
         if(Http.readyState === 4){
             if(Http.status === 200){

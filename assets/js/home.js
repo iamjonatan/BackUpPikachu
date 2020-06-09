@@ -80,7 +80,3 @@ function presentCards() {
         });
     }
 }
-
-function isValidText(str) {
-
-}
